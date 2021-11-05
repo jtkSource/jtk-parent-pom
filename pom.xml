@@ -3,7 +3,7 @@
     <modelVersion>4.0.0</modelVersion>
     <groupId>com.jtk.maven</groupId>
     <artifactId>jtk-default-parent</artifactId>
-    <version>1.0.2</version>
+    <version>1.0.3</version>
     <packaging>pom</packaging>
     <name>jtk-maven-parent</name>
     <description>JTK default parent POM for all JTK projects</description>
@@ -37,6 +37,11 @@
     </distributionManagement>
 
     <dependencies>
+        <dependency>
+            <groupId>org.apache.commons</groupId>
+            <artifactId>commons-lang3</artifactId>
+            <version>3.12.0</version>
+        </dependency>
         <!-- log4j -->
         <dependency>
             <groupId>org.slf4j</groupId>
