@@ -3,7 +3,7 @@
     <modelVersion>4.0.0</modelVersion>
     <groupId>com.jtk.maven</groupId>
     <artifactId>jtk-default-parent</artifactId>
-    <version>1.0.4</version>
+    <version>1.0.3</version>
     <packaging>pom</packaging>
     <name>jtk-maven-parent</name>
     <description>JTK default parent POM for all JTK projects</description>
@@ -46,6 +46,7 @@
         <dependency>
             <groupId>org.slf4j</groupId>
             <artifactId>slf4j-api</artifactId>
+            <version>1.7.32</version>
         </dependency>
         <dependency>
             <groupId>org.apache.logging.log4j</groupId>
@@ -316,20 +317,4 @@
 
         </plugins>
     </build>
-
-
-
-    <dependencyManagement>
-    
-
-        <dependencies>
-
-            <dependency>
-                <groupId>org.slf4j</groupId>
-                <artifactId>slf4j-api</artifactId>
-                <version>1.7.34</version>
-            </dependency>
-       </dependencies>
-
-    </dependencyManagement>
 </project>
